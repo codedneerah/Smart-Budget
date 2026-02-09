@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* High contrast mode styles */
+.high-contrast {
+  --text: #000;
+  --bg: #fff;
+  --primary: #000;
+  --secondary: #fff;
+  --border: #000;
+}
+
+/* Custom CSS variables for theme preferences */
+:root {
+  --font-size-base: 16px;
+  --spacing-padding: 0.75rem;
+  --spacing-margin: 0.75rem;
+  --spacing-gap: 0.75rem;
+  --animation-duration: 0.3s;
+}
